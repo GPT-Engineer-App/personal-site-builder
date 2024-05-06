@@ -1,9 +1,11 @@
 import { Container, Text, VStack, Box, Heading, List, ListItem, ListIcon, Link, Image } from "@chakra-ui/react";
 import { FaCode, FaEnvelope, FaLinkedin, FaGithub } from "react-icons/fa";
+import Header from "../components/Header";
 
 const Index = () => {
   return (
     <Container centerContent maxW="container.md" padding={4}>
+      <Header />
       <VStack spacing={8} align="stretch">
         <Box textAlign="center">
           <Image borderRadius="full" boxSize="150px" src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxkZXZlbG9wZXIlMjBwb3J0cmFpdHxlbnwwfHx8fDE3MTUwMDc1NDB8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Developer Portrait" />
