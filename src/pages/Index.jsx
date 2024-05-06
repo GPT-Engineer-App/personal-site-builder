@@ -61,6 +61,11 @@ const Index = () => {
           </List>
         </Box>
       </VStack>
+      <Box as="footer" width="full" padding="4" borderTop="1px" borderColor="gray.200" textAlign="center">
+        <Text fontSize="sm" color="gray.600">
+          © 2024 John Doe. All rights reserved.
+        </Text>
+      </Box>
     </Container>
   );
 };
